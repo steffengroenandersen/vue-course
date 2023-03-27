@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Resources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sections/Section 1/Resources/gs-01-starting-project.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Sections/Section 1/Resources/gs-03-rebuilding-the-app-with-vue.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Sections/Section 1/Resources/gs-02-first-app-with-just-js (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/Sections/Section 1/Resources/Slides.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
