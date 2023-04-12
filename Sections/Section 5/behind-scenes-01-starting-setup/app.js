@@ -19,8 +19,6 @@ app.mount('#app');
 
 // ....
 
-let message = 'Hello!';
 
-let longMessage = message + ' World!'
 
-message = 'Hello!!!!';
+
