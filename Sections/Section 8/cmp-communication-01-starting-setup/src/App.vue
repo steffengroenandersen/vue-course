@@ -12,7 +12,6 @@
         v-bind:phone-number="friend.phone"
         v-bind:email="friend.email"
         v-bind:is-favorite="friend.isFavorite"
-
         v-on:toggle-favorite="toggleFavoriteStatus"
       ></friend-contact>
     </ul>
@@ -25,28 +24,30 @@ export default {
     return {
       friends: [
         {
-          id: 'manuel',
-          name: 'Manuel Lorenz',
-          phone: '0123 45678 90',
-          email: 'manuel@localhost.com',
+          id: "manuel",
+          name: "Manuel Lorenz",
+          phone: "0123 45678 90",
+          email: "manuel@localhost.com",
           isFavorite: true,
         },
         {
-          id: 'julie',
-          name: 'Julie Jones',
-          phone: '0987 654421 21',
-          email: 'julie@localhost.com',
+          id: "julie",
+          name: "Julie Jones",
+          phone: "0987 654421 21",
+          email: "julie@localhost.com",
           isFavorite: false,
         },
       ],
     };
   },
-  methods:{
-    toggleFavoriteStatus(friendId){
-      const identifiedFriend = this.friends.find(friend => friend.id === friendId);
+  methods: {
+    toggleFavoriteStatus(friendId) {
+      const identifiedFriend = this.friends.find(
+        (friend) => friend.id === friendId
+      );
       identifiedFriend.isFavorite = !identifiedFriend.isFavorite;
-    }
-  }
+    },
+  },
 };
 </script>
 
